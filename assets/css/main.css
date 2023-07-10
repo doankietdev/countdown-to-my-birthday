@@ -1,0 +1,38 @@
+body {
+    background-color: #FFD54F;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app {
+    padding: 20px;
+}
+
+.heading {
+    font-size: 4rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+}
+
+.countdown {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.countdown__item {
+    font-size: 2.4rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.countdown__number {
+    display: block;
+    font-size: 5rem;
+    font-weight: 500;
+    letter-spacing: 0.2rem;
+    margin-bottom: 4px;
+}
